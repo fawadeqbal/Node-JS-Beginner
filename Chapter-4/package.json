@@ -1,0 +1,16 @@
+{
+  "name": "chapter-4",
+  "version": "1.0.0",
+  "description": "Events in Common Core Modules",
+  "main": "server.js",
+  "scripts": {
+    "test": "node server.js",
+    "start": "nodemon server.js"
+  },
+  "author": "Fawad Iqbal",
+  "license": "ISC",
+  "dependencies": {
+    "date-fns": "^2.29.3",
+    "uuid": "^9.0.0"
+  }
+}
