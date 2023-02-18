@@ -1,1 +1,2 @@
-1. In Chap#1 we have discussed common Core modules
+1. Chap#1  (Core modules)
+2. Chap#2 (Read and Write Files)
