@@ -4,8 +4,8 @@
   "description": "Events in Common Core Modules",
   "main": "server.js",
   "scripts": {
-    "test": "node server.js",
-    "start": "nodemon server.js"
+    "test": "node index.js",
+    "start": "nodemon index.js"
   },
   "author": "Fawad Iqbal",
   "license": "ISC",
