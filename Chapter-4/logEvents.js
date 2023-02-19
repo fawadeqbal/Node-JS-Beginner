@@ -5,8 +5,8 @@ const fsPromises = require('fs').promises
 const path = require('path')
 
 
-const logEvent = async () => {
-    const data = `${format(new Date(),`dd-MM-yyyy\tHH:mm:ss`)}`+`\t`+`${uuid()}`+`\n`;
+const logEvent = async (msg) => {
+    const data = `${format(new Date(),`dd-MM-yyyy\tHH:mm:ss`)}`+`\t`+`${uuid()}`+`\t${msg}`+`\n`;
     try{
         if(!fs.existsSync(path.join(__dirname,'log')))
         await fsPromises.mkdir(path.join(__dirname,'log'))
