@@ -1,6 +1,9 @@
 const events = require('events')
 const eventEmitter = new events.EventEmitter();
-const {logEvent:log} = require('./logEvents.js')
+const {logEvent:logInfo} = require('./logEvents.js')
 
-eventEmitter.on('log',() => log())
-eventEmitter.emit('log')
+eventEmitter.on('log',() => logInfo())
+
+setTimeout(() => {
+    eventEmitter.emit('log')
+},3000)
