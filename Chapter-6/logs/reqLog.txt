@@ -1,0 +1,17 @@
+20230220	02:50:30	77337cd1-527d-49da-b0fe-60c0a31f75ed	GET	undefined	/chain	
+20230220	02:50:54	bf2f8ac2-c7c7-4508-be5f-0fc336b8298e	GET	undefined	/index	
+20230220	02:50:54	17512aae-d880-464c-b57f-c9c78651193e	GET	undefined	/css/style.css	
+20230220	02:54:18	05b5cdd2-fba9-4408-a53b-dbcb0adf088a	GET	undefined	/index	
+20230220	02:54:18	32d75b01-d00d-48c2-951e-a8c1df25473b	GET	undefined	/css/style.css	
+20230220	02:54:22	8150580e-0504-4d1f-a680-48b333f839ce	GET	undefined	/index	
+20230220	02:54:22	7cda83fc-d89f-418a-a1fc-f5ade9a3375b	GET	undefined	/css/style.css	
+20230220	02:55:29	79edaaee-9a8f-456f-bf92-816dfcab8f57	GET	undefined	/	
+20230220	02:55:29	ee672e07-43ee-497c-b806-4ed510ddac07	GET	undefined	/css/style.css	
+20230220	02:56:10	28090b77-e5d5-42e6-ba1a-3051bafdfe05	OPTIONS	undefined	/	
+20230220	02:56:10	8d4ea7c3-746f-4fbf-aae8-77d06d30eff6	GET	undefined	/	
+20230220	02:56:53	c4c6b42e-38f7-4faf-a8aa-16671deff0a2	OPTIONS	undefined	/	
+20230220	02:56:53	e5c1caac-20af-4035-b954-d9add0488baa	GET	undefined	/	
+20230220	02:59:11	5426bc4a-83ae-4c60-b389-a3ec940b4dcb	GET	undefined	/	
+20230220	02:59:11	67f93e03-a256-4cb7-b7e6-a772d5178b03	GET	undefined	/css/style.css	
+20230220	02:59:15	48c63a84-96ee-47c8-be10-1e3f8fcb425c	OPTIONS	undefined	/	
+20230220	02:59:15	0dc37a06-84b4-493f-975e-fd8fe99bd74d	GET	undefined	/	
