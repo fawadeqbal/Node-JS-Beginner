@@ -5,7 +5,6 @@ const cors = require('cors');
 const {logger} = require('./middleware/logEvents')
 const errorHandler = require('./middleware/errorHandler')
 const PORT = process.env.PORT || 3500;
-const router = require('./routes/subdir')
 
 app.use(logger)
 
@@ -25,21 +24,19 @@ const corsOptions = {
 //Cross-Origin Resourse sharing
 app.use(cors(corsOptions))
 
-
 app.use(express.urlencoded({ extended: false }))
 
 //built in middleware for json
 app.use(express.json())
 
-
 // Serve static files
 app.use('/',express.static(path.join(__dirname,'/public')))
 app.use('/subdir',express.static(path.join(__dirname,'/public')))
 
-
 //Route
 app.use('/', require('./routes/root'))
 app.use('/subdir',require('./routes/subdir'))
+app.use('/employees',require('./routes/api/employees'))
 
 // all
 app.all(`*` , (req,res) => {
