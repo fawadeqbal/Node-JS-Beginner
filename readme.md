@@ -8,5 +8,3 @@
 8. Chap#8 (MVC Rest API's)
 # "npm install" 
 All dependencies in package.json will be installed to your project
-# "npm install -g nodemon"
-nodemon will be installed globally to your system path
