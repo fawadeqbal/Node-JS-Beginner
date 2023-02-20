@@ -3,6 +3,9 @@
 3. Chap#3 (import NPM Modules)
 4. Chap#4 (Log Events)
 5. Chap#5 (Web Server)
+6. Chap#6 (Middlewares in Express Js )
+7. Chap#7 (Routing in Express JS)
+8. Chap#8 (MVC Rest API's)
 
 # "npm install -g nodemon"
 nodemon will be installed globally to your system path
