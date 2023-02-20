@@ -8,3 +8,4 @@
 20230220	14:49:05	9d9fad30-d083-4467-87d6-8cea2c4628bc	Error: Not allowed by CORS
 20230220	14:49:06	b0cbcb4c-fb14-4155-aef6-f5f215d1a7f6	Error: Not allowed by CORS
 20230220	14:49:07	b6a2b8dc-9fa7-454c-96ac-2e71a7d0017d	Error: Not allowed by CORS
+20230220	23:41:21	1518beab-2b86-4f9c-b325-d7a89c019dd9	Error: Cannot set headers after they are sent to the client
