@@ -36,7 +36,7 @@ app.all(`*` , (req,res) => {
             error:'404 Not Found'
         })
     }else{
-        res.type('txt').send('404 Not Found')
+        res.type('txt').send('404 Not Found ')
     }
     
 })
